@@ -1,16 +1,16 @@
 **Test 1**
 
 ¿Cuál es el período de la señal? 
-  1/976.56ms
+  1/976.56s
   
 ¿Se modifica?
-No, por que se modiffica el ciclo de trabajo en el codigo 
+No, porque se modifica el ciclo de trabajo en el código. 
   
 ¿Cómo se define duty cycle?
-se define mediante la funcion SetPWM a traves de la variable pasada pór parametro active, esta se incrementa en cada ciclo. 
+Se define mediante la funcion <tt>setPWM()</tt> a través de la variable <tt>active</tt>, pasada por parámetro, que se modifica en cada ciclo. 
   
 ¿Se modifica?
-Si, cambiadno la cantidad de pulsos que envia el timer,en la variable active, calcualdo un valor de step. 
+Si, cambiando la cantidad de pulsos, en la variable <tt>active</tt>, calculando un valor de <tt>step</tt>. 
 
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/4bde61f2-d2f6-4219-afe1-1b883dade07c" />
